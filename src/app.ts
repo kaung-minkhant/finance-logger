@@ -51,11 +51,11 @@ const docThree: Resource<string> = {
     data: 'So Good' 
 }
 
-const docFour: Resource<string[]> = {
+const docFive: Resource<string[]> = {
     uid: 2,
     resourceName: resourceType.PERSON,
     data: ['kaung', 'shunn']
 }
 
 console.log(docThree);
-console.log(docFour);
+console.log(docFive);
